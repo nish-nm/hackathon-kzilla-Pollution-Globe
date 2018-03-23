@@ -2,8 +2,8 @@
 ---
 
 ## Algorithms implemented-
-*Random forest*
-*Linear regression*
-*Support Vector Machines*
+* *Random forest*
+* *Linear regression*
+* *Support Vector Machines*
 
 ---
