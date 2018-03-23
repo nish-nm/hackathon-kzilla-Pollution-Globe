@@ -83,7 +83,6 @@
         .end(function(err, res) {
           var data = res.body;
           window.data = data;
-
           globe.addData(data, {format: 'legend'});
           globe.createPoints();
           globe.animate();
