@@ -11,15 +11,15 @@ Pollution globe visualizes air quality around the world using
 ## Quick setup
 
 Create virtual environment in cloned/downloaded repository and install required packages.
-open command promt and type-
+open command prompt and type-
 ```
 
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-
+```
 Run app.
-
+```
 python runner.py
 ```
 Open localhost:5000 in your browser.
