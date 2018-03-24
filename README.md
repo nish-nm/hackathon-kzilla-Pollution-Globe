@@ -12,8 +12,8 @@ Pollution globe visualizes air quality around the world using
 
 Create virtual environment in cloned/downloaded repository and install required packages.
 open command promt and type-
-'''
+```
 pip install -r requirements.txt
 
 python runner.py
-'''
+```
