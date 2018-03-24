@@ -4,7 +4,7 @@
   <div id="container">
     <div id="globe"></div>
     <div id="title">
-      Air Quality Index (AQI) around the world
+      Air Quality Index (AQI) prediction around the world
       <div style="font-size: 13px;">data from last hour</div>
     </div>
     <div id="legend">
@@ -67,7 +67,13 @@
 {% block scripts %}
   {{ super() }}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.0/superagent.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/69/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/69/three.min.js">
+    function init(){
+        var renderer = new THREE.WebGLRenderer({ alpha: true });
+        renderer.setClearColorHex( 0x000067, 0);
+        
+      }
+  </script>
   <script src="https://cdn.rawgit.com/dataarts/webgl-globe/master/globe/third-party/Detector.js"></script>
   <script src="https://cdn.rawgit.com/dataarts/webgl-globe/master/globe/globe.js"></script>
   <script>
@@ -88,5 +94,6 @@
           globe.createPoints();
           globe.animate();
         });
+
   </script>
 {% endblock  %}

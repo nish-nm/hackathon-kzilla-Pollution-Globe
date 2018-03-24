@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #000000;
+    background: #0000089;
     color: #ffffff;
 }
 footer {
@@ -29,4 +29,8 @@ footer {
     position: absolute;
     right:0;
     bottom:0;
+  }
+  .footer-copyright py-3 text-center{
+	  background-color:#ffffff;
+	  font-size: 5px;
   }
