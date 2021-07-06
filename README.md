@@ -1,4 +1,4 @@
-# hackathon_kzilla
+# hackathon_SRMkzilla
 Hackathon project
 
 # Pollution globe
